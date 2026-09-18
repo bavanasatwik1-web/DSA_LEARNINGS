@@ -133,3 +133,19 @@ Frequency
 29. Write a program to calculate the backward frequency of elements in a list.
 30. Write a program to print frequencies of each element without repetition.
 31. Write a program to find the most frequently repeated element in a list.'''
+
+
+
+l=[20,30,40,40]
+# a=max(l)
+# # print(c)
+# c=l.count(a)
+# for i in range(c):
+#     l.remove(a)
+# print(max(l))
+
+a=max(l)
+k=l.count(a)
+for i in range(k):
+    l.remove(a)
+print(max(l))    
