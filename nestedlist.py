@@ -127,18 +127,38 @@ sp=ss=0
 #     for j in range(0,len(nl)):
 #         print(nl[i][j])    
 '''surrounded or neighbour elements'''
+# r=int(input("enter row:"))
+# nl=[]
+# for i in range(0,r):
+#     nl.append(list(map(int,input().split())))
+# for i in range(len(nl)):
+#     for j in range(len(nl[i])):
+#         # print(nl[i][j],end=" ")
+#         if i!=0: 
+#             print(nl[i-1][j],end=' ')
+#         if j!=len(nl[0])-1:
+#             print(nl[i][j+1],end=" ")
+#         if i!=len(nl)-1:
+#             print(nl[i+1][j],end=" ")
+#         if j!=0: 
+#             print(nl[i][j-1],end=" ")
+'''Corner Elements and its sum'''
+
 r=int(input("enter row:"))
 nl=[]
 for i in range(0,r):
     nl.append(list(map(int,input().split())))
 for i in range(len(nl)):
     for j in range(len(nl[i])):
-        # print(nl[i][j],end=" ")
-        if i!=0:
-            print(nl[i-1][j],end=' ')
-        if j!=len(nl[0])-1:
-            print(nl[i][j+1],end=" ")
-        if i!=len(nl)-1:
-            print(nl[i+1][j],end=" ")
-        if j!=0:
-            print(nl[i][j-1],end=" ")            
+        if i!=0 and j!=0:
+            print(nl[i-1][j-1])
+        if j!=len(nl[i])-1 and i!=0:
+            print(nl[i-1][j+1])
+        if j!=0 and i!=len(nl)-1:
+            print(nl[i+1][j-1])
+        if j!=len(nl[i])-1 and i!=len(nl)-1:
+            print(nl[i+1][j+1])            
+
+
+ 
+  
