@@ -144,20 +144,22 @@ sp=ss=0
 #             print(nl[i][j-1],end=" ")
 '''Corner Elements and its sum'''
 
-r=int(input("enter row:"))
-nl=[]
-for i in range(0,r):
-    nl.append(list(map(int,input().split())))
-for i in range(len(nl)):
-    for j in range(len(nl[i])):
-        if i!=0 and j!=0:
-            print(nl[i-1][j-1])
-        if j!=len(nl[i])-1 and i!=0:
-            print(nl[i-1][j+1])
-        if j!=0 and i!=len(nl)-1:
-            print(nl[i+1][j-1])
-        if j!=len(nl[i])-1 and i!=len(nl)-1:
-            print(nl[i+1][j+1])            
+# r=int(input("enter row:"))
+# nl=[]
+# for i in range(0,r):
+#     nl.append(list(map(int,input().split())))
+# for i in range(len(nl)):
+#     for j in range(len(nl[i])):
+#         if i!=0 and j!=0:
+#             print(nl[i-1][j-1])
+#         if j!=len(nl[i])-1 and i!=0:
+#             print(nl[i-1][j+1])
+#         if j!=0 and i!=len(nl)-1:
+#             print(nl[i+1][j-1])
+#         if j!=len(nl[i])-1 and i!=len(nl)-1:
+#             print(nl[i+1][j+1])            
+
+
 
 
  
