@@ -50,10 +50,24 @@
 
 '''Anagram'''
 
-def isAnagram(self, s: str, t: str) -> bool:
-        if len(t)!=len(s):
-            return False
-        d={}    
-        for i in range(0,len(s)):
-            d[s[i]]=d.get(s[i],0)+1
-            d[t[i]]=d.get(t[i],0)-1
+# def isAnagram(self, s: str, t: str) -> bool:
+#         if len(t)!=len(s):
+#             return False
+#         d={}    
+#         for i in range(0,len(s)):
+#             d[s[i]]=d.get(s[i],0)+1
+#             d[t[i]]=d.get(t[i],0)-1
+
+'''frequency'''
+
+nums = [1, 2, 2, 3, 1, 2, 4]
+
+freq = {}
+
+for num in nums:
+    if num in freq:
+        freq[num] += 1
+    else:
+        freq[num] = 1
+
+print(freq)
