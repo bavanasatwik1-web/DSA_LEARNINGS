@@ -160,7 +160,26 @@ sp=ss=0
 #             print(nl[i+1][j+1])            
 
 
+# numbers = [[10, 20, 30], [40, 50, 60]]
+
+# print(numbers)
+# print(numbers[0])
+# print(numbers[0][1])
 
 
- 
-  
+# numbers = [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
+
+# for row in numbers:
+#     for num in row:
+#         print(num, end=" ")
+#     print()
+
+# numbers = [[10, 20], [30, 40]]
+
+# total = 0
+
+# for row in numbers:
+#     for num in row:
+#         total += num
+
+# print("Total:", total)

@@ -60,14 +60,14 @@
 
 '''frequency'''
 
-nums = [1, 2, 2, 3, 1, 2, 4]
+# nums = [1, 2, 2, 3, 1, 2, 4]
 
-freq = {}
+# freq = {}
 
-for num in nums:
-    if num in freq:
-        freq[num] += 1
-    else:
-        freq[num] = 1
+# for num in nums:
+#     if num in freq:
+#         freq[num] += 1
+#     else:
+#         freq[num] = 1
 
-print(freq)
+# print(freq)
