@@ -7,4 +7,5 @@ class Solution:
                     k=k-1
                     baskets[j]=0
                     break
-        return k                
+        return k
+                      
